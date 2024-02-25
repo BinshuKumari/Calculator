@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Martel+Sans:wght@600;700&family=Poppins:wght@700&family=Roboto+Condensed:wght@700&family=Roboto:wght@700&family=Sree+Krushnadevaraya&family=Tektur:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    text-align: center;
+}
+.container{
+    display: inline;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+    justify-content: center;
+    /* background-color: gray; */
+}
+.auto{
+    margin: auto;
+}
+.button{
+    cursor: pointer;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 66px;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.row{
+    margin: 5px 0;
+    
+}
+.row input{
+    margin: 0;
+    font-size: 24px;
+    width: 291px;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
